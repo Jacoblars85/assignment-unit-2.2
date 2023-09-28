@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// variable name is dane
+// if your name is mary
+// console will say "hi mary!"
+//if not, it will say "how do you do?" and it will say this
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// variable secret set at nothing and variable code set at 123
+// if code is 123, it will make the variable secrets value "super" and code variable will be multiplied by 2
+// now code is 246 and is asking if code is greater than 250 and will change the value of secret to duper 
+//So the code will stay at super and will console log variable secret
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// variable isStudent is set to true. variable age is set to 34. variable zip is set to 55407.
+// if student is true and in a zip code greater than 80000 then it will log "You're a student on the West Coast!" which is false
+// if student is false or your age is lower than 30 it will log "What are your hobbies?". 
+// if student is true it will log "Welcome to Prime!". and if everything is wrong it will log "How about the weather?" but it will log welcome to prime
 
 //CODE
 /*
@@ -130,11 +130,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - let colorOne = 'blue'; im not sure if this even mattered but it was flipped
 let colorOne = 'red';
+// FIX - let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  FIX - its supposed to be both colorone and colortwo made purple 
   colorOne = 'purple';
 }
 */
@@ -145,8 +148,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
+FIX - its not supposed to be a constant because it said 2 variables
 const time = 4;
 
+FIX - its supposed to be && and not || because it has to be both
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -158,8 +163,10 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+FIX - again it said 2 variables
 const minAge = 21;
 
+FIX - that is not the greater than sign and also the "no entry" and "enter" are swapped
 if(minAge <= age) {
   console.log('no entry');
 } else {
